@@ -1,0 +1,45 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap-responsive.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="mailMatch.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="page-header">
+                <h1>Sign Up</h1>
+            </div>
+            <div class="hero-unit" style="padding-top:5px">
+                <h1><small>Sign Up</small></h1><br>
+                <form action="checkLog" method="POST">
+                    <input type="hidden" value ="reg" name="type"/>
+                    <table>
+                        <tr><td><label class="control-label">First Name : </label></td><td><input type="text" name="first_name"/></td></tr>
+                        <tr><td><label class="control-label">Second Name : </label></td><td><input type="text" name="second_name"/></td></tr>
+                        <tr><td><label class="control-label">Username : </label></td><td><input type="text" name="name"/></td></tr>
+                        <tr><td><label class="control-label">Password : </label></td><td><input type="password" name="pswd"/></td></tr>
+                        <tr><td><label class="control-label">Address : </label></td><td><input type="text" name="address"/></td></tr>
+                        <tr><td><label class="control-label">e-mail : </label></td><td><input type="text" name="mail" id="mail"/></td></tr>
+                        <tr><td><label class="control-label">confirm mail : </label></td><td><input type="text" name="remail" id="re_mail"/></td></tr>
+                        <tr><td></td><td><button class="btn btn-default" type="submit" id="signUp"><i class="icon-ok"></i><b> Sign Up!</b></button>
+                                <a href="Login.html">
+                                    <button class="btn btn-primary btn-default">
+                                        <i class="icon-remove icon-white"></i>
+                                        <b> Back</b>
+                                    </button></a>
+                            </td></tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

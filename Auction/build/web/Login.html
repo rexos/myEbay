@@ -1,0 +1,41 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap-responsive.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+            <div class="wrapper">
+                <div class="page-header">
+                    <h1>Login Page</h1>
+                </div>
+                <div class="hero-unit" style="padding-top: 10px">
+                    <h1><small>Sign In</small></h1>
+                    <form action="checkLog" method="POST">
+                        <input type="hidden" value ="log" name="type"/>
+                        <table>
+                            <tr><td><label class="control-label" for="inputUser">Username</label></td><td><input type="text" name="username" placeholder="Username"/><br></td></tr>
+                            <tr><td><label class="control-label" for="inputPass">Password</label></td><td><input type="password" name="password" placeholder="Password"/><br></td></tr>
+                            <tr><td></td><td><button class="btn btn-default" type="submit"><i class="icon-ok"></i><b> Sign In</b></button>
+                                    <a href="Signup.html">
+                                        <button class="btn btn-primary btn-default"><i class="icon-edit icon-white"></i><b> Sign Up</b></button>
+                                    </a>
+                                </td></tr>
+                        </table>
+                    </form>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
+        
+    </body>
+</html>

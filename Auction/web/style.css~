@@ -1,0 +1,8 @@
+
+*{
+    margin : 0 auto;
+}
+
+div.wrapper{
+    width : 600px;
+}
